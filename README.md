@@ -1,4 +1,4 @@
-# raspi-twitter-bashbot
+# twitter-shell-bot
 
 TwitterでUnixコマンドの実行結果を返す簡単なPythonスクリプトです
 
