@@ -14,7 +14,7 @@ sudo apt install python3-pip -y && sudo pip3 install tweepy
 
 # 実行する前に
 
-[commandstart.sh]と[tweet.py]を自身のAPIKeyとTwitterID名に書き換えて使ってください。(TwitterDeveloperに登録している必要があります)
+[commandstart.py]と[tweet.py]を自身のAPIKeyとTwitterID名に書き換えて使ってください。(TwitterDeveloperに登録している必要があります)
 
 
 詳細な書き換え項目はコードに記載されています
