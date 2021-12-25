@@ -23,4 +23,4 @@ sudo apt install python3-pip -y && sudo pip3 install tweepy
 
 start.shを実行するとBotがスタートします。
 
-例:) bash start.sh
+例:) bash start.py
