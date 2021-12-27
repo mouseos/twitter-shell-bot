@@ -16,7 +16,7 @@ def truncate(str, num_bytes, encoding='utf-8'):
 deluser = cmd.replace(id, '')
 delshell = deluser.replace("シェル", '')
 
-proc = subprocess.run(("fakechroot fakeroot chroot ./rootfs /bin/bash -c " + re.escape(delshell) ), shell=True, stdout=PIPE, stderr=PIPE, text=True)
+proc = subprocess.run(("timeout 5 fakechroot fakeroot chroot ./rootfs /bin/bash -c " + re.escape(delshell) ), shell=True, stdout=PIPE, stderr=PIPE, text=True)
 date =  (proc.stdout) 
 result = (('実行結果: {}'.format(date)))
 
