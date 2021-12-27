@@ -16,7 +16,7 @@ api = tweepy.API(auth)
 
 #ここにTwitterアカウントのIDを入れてください(例:twitterid = '@mouse_soft_y')
 
-twitterid = '@mouse_soft_y'
+twitterid = '@yourid'
 
 class MyStream(tweepy.Stream):
  def on_status(self, status):
@@ -25,7 +25,7 @@ class MyStream(tweepy.Stream):
   name = (message)
   twitterid = (me.id_str)
   cmd = name.replace( '\n' , '' )
-  if 'シェル' in cmd:
+  if 'シェル ' in cmd:
 
   
    command = "python3 commandstart.py " +  "\"" + (cmd) + "\""
