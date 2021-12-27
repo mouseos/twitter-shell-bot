@@ -1,3 +1,4 @@
+#⚠無対策での利用はAPIキー流出の恐れがあります。
 # twitter-shell-bot
 
 TwitterでUnixコマンドの実行結果を返す簡単なPythonスクリプトです
