@@ -24,7 +24,7 @@ sudo apt install python3-pip -y && sudo pip3 install tweepy
 chmod +x setup.sh
 ./setup.sh
 [commandstart.py]と[tweet.py]を自身のAPIKeyとTwitterID名に書き換えて使ってください。(TwitterDeveloperに登録している必要があります)
-
+初期状態で記載されているAPIキーはサンプルのため動作しません。
 
 詳細な書き換え項目はコードに記載されています
 
